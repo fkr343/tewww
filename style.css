@@ -1,0 +1,56 @@
+body{
+padding: 0;
+margin: 0;
+background-color: #f3f4f6
+}
+
+
+
+#hero{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+width: 100%;
+gap: 2em;
+}
+.card{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 4px;
+border: 1px solid black;
+height: 500px;
+width: 300px;
+border: none;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+box-shadow: 1px 1px 5px 1px #b5b5b5;
+background-color: white;
+}
+.card img{
+border-bottom: 2px solid #d5d5d5;
+}
+.button-card{
+border: none;
+height: 30px;
+width: 100px;
+border-radius: 5px;
+background-color: #e65162;
+}
+.button-card a{
+text-decoration: none;
+color: white;
+}
+@media(max-width:576px){
+#hero{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+height: 2200px;
+
+}
+}
